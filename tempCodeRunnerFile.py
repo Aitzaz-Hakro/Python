@@ -1,17 +1,8 @@
-#while loops
-i=1
-# while i<=10:
-#     print(i)
-#     i+=1
-# print("loop ends")
+def raisepower(basenum, powtime):
+    result=1
+    for i in range(0,powtime):
+        result*=basenum
 
-#For LOOP
-# for letter in "Aitzaz Hassan":
-#     print(letter)
+    print(result)     
 
- 
-# for i in range(10):  # incluede 1  excludes 10 
-#     print(i)
-
-for index in range(1,11,2): # (startpoint, endpoint, increament)
-    print(index)
+raisepower(2,5)

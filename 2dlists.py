@@ -20,5 +20,4 @@ def translater(phrase):
         else:
             translation+=letter
     return translation
-
 print(translater(input("Enter a phrase : ")))  
